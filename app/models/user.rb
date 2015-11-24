@@ -2,6 +2,11 @@ class User < ActiveRecord::Base
   has_many :microposts, dependent: :destroy
   attr_accessor :remember_token
 
+  #defines a proto-feed
+  def feed
+    Micropost.where("user_id = ?", id)
+  end
+
   def remember
     self.remember_token = User.new_token
     update_attribute(:remember_digest, User.digest(remember_token))
