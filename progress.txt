@@ -1,2 +1,3 @@
 11/22: p. 445
 11/22: 2 errors popping up in tests; merging changes anyway
+11/23: p. 594, about to do basic image upload
