@@ -1,7 +1,6 @@
 Nathan's Ruby on Rails sample app
 <br>
-check it out here: https://calm-brook-6589.herokuapp.com/
-
+check it out here: https://glacial-shore-7109.herokuapp.com/
 == README
 
 This README would normally document whatever steps are necessary to get the
